@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "d6801198-855d-403c-8693-792876f78e36",
+		"name": "Prices",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15141314",
+		"_collection_link": "https://winter-crescent-629943.postman.co/workspace/Bonbast-PHP-API~855cdb6f-26bb-4e95-876a-40cdd79edd6a/collection/15141314-d6801198-855d-403c-8693-792876f78e36?action=share&creator=15141314&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "Get Price",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/price/usd",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"price",
+						"usd"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "USD Example",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8000/price/usd",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"price",
+								"usd"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 31 Jul 2023 15:22:39 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.3"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": ""
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "X-Requested-With, Content-Type, Accept, Origin, Authorization"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, PATCH, DELETE, OPTIONS"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-store, no-cache, must-revalidate, max-age=0"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "post-check=0, pre-check=0"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"sell\": \"49350\",\n    \"buy\": \"49250\"\n}"
+				}
+			]
+		}
+	]
+}
